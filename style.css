@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-btn {
+    background-color: rgb(79, 79, 255);
+    color: white;
+    padding-block: 8px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.note-create {
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px 4px #f6e8e8;
+    padding: 15px;
+}
+
+.hidden {
+    display: none !important; 
+}
+
+ .note-create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+
+    input, textarea {
+        border: 1px solid #adabab;
+        border-radius: 6px;
+        padding: 8px 12px;
+
+        &:focus {
+            outline: 1px solid blue;
+        }
+    }
+ }
+
+ .create-btn-container {
+    display: flex;
+    gap: 10px;
+
+    button {
+        padding: 6px 12px;
+        border-radius: 6px;
+        border: none;
+        color: white;
+    }
+ }
+
+
+ .save-btn {
+    background-color: rgb(26, 135, 26);
+ }
+
+ .cancel-btn {
+    background-color: #8b8b8b;
+ }
+
+  .note-item {
+     margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px 4px #f6e8e8;
+    padding: 15px;
+ }
+
+ .note-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .note-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    button {
+        border: none;
+        background-color: white;
+    }
+
+    img {
+        width: 25px;
+    }
+ }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline note app</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="header-container">
+        <h2>
+            My notes
+        </h2>
+
+        <button id="note-create-btn" class="header-btn">
+            New note
+        </button>
+    </div>
+
+    <!-- note create -->
+    <div id="note-create" class="note-create hidden">
+        <h3>
+            Create new note
+        </h3>
+
+        <form class="note-create-form">
+            <input type="text" placeholder="Note Title" class="note-title" />
+            <textarea rows="15" placeholder="Note Content" class="note-area"></textarea>
+
+            <div class="create-btn-container">
+                <button class="save-btn" type="button">Save</button>
+                <button class="cancel-btn" type="button">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- List of notes -->
+
+    <div class="notes-list">
+        <!-- Item -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
